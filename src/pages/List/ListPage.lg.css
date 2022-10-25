@@ -1,0 +1,21 @@
+@media (--lg) {
+  .pokedex-paginated-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    & .pokedex-paginated-list__card {
+      grid-column: 3/11;
+      grid-template-rows: 50px calc(80vh - 100px) 50px;
+
+      & .pokedex-paginated-list__header {
+        grid-column: 1/9;
+      }
+
+      & .pokedex-paginated-list__list {
+        grid-column: 1/9;
+      }
+
+      & .ßokedex-paginated-list__buttons {
+        grid-column: 1/9;
+      }
+    }
+  }
+}

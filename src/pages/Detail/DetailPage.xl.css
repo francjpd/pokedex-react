@@ -1,0 +1,9 @@
+@media (--xl) {
+  .pokedex-pokemon-detail {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    & .pokedex-pokemon-detail__card {
+      grid-column: 4/10;
+    }
+  }
+}

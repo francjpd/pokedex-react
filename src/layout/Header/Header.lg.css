@@ -1,0 +1,8 @@
+@media (--lg) {
+  .pokedex-header {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    & .pokedex-header__content {
+      grid-column: 3/11;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.pokedex-header {
+  display: grid;
+  & .pokedex-header__content {
+    background-color: var(--secondary-color);
+    & img {
+      width: 130px;
+      padding: 10px;
+      margin: auto;
+      display: flex;
+    }
+
+    & .pokedex-header__menu {
+      background-color: var(--secondary-color);
+      & button {
+        background-color: transparent;
+        color: white;
+        font-family: unset;
+        border-radius: 0;
+      }
+    }
+  }
+}

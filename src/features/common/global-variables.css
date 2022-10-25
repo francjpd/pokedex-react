@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #eee;
+  --secondary-color: #0c69c8;
+  --tertiary-color: #e13232;
+  --font-primary-color: #373737;
+}
+@custom-media --sm (min-width: 0px) and (max-width: 576px);
+@custom-media --md (min-width: 576px);
+@custom-media --lg (min-width: 992px);
+@custom-media --xl (min-width: 1200px);

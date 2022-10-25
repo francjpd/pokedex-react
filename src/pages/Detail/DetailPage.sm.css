@@ -1,0 +1,18 @@
+@media (--sm) {
+  .pokedex-pokemon-detail {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    & .pokedex-pokemon-detail__card {
+      grid-column: 1/5;
+      & .pokedex-pokemon-detail__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        & .pokedex-pokemon-detail__move {
+          border-top: 2px solid var(--tertiary-color);
+          grid-column: 1/3;
+        }
+      }
+    }
+  }
+}

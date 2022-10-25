@@ -1,0 +1,9 @@
+@media (--lg) {
+  .pokedex-pokemon-add {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    & .pokedex-pokemon-add__card {
+      grid-column: 3/11;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.pokedex-pokemon-detail {
+  display: grid;
+  grid-template-rows: 1fr;
+
+  & .title {
+    margin: 0;
+    text-align: right;
+    width: 100%;
+    color: var(--tertiary-color);
+    font-style: initial;
+    font-weight: 100;
+    font-size: 20px;
+  }
+
+  & .pokedex-pokemon-detail__card {
+    border: 2px solid var(--tertiary-color);
+
+    & .pokedex-pokemon-detail__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: var(--tertiary-color);
+      padding: 8px;
+
+      & .pokedex-pokemon-detail__name {
+        font-style: italic;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: fantasy;
+        color: white;
+        font-size: 24px;
+      }
+    }
+
+    & .pokedex-pokemon-detail__content {
+      display: grid;
+
+      & .pokedex-pokemon-detail__stats {
+        width: 100%;
+        padding: 8px;
+
+        & .pokedex-pokemon-detail__stat {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          font-weight: bold;
+          font-family: system-ui;
+
+          & img {
+            margin-right: 8px;
+            width: 25px;
+          }
+        }
+      }
+
+      & .pokedex-pokemon-detail__sprite {
+        display: flex;
+        align-items: center;
+        border-left: 2px solid var(--tertiary-color);
+        box-sizing: border-box;
+        justify-content: center;
+        width: 100%;
+
+        & img {
+          height: 130px;
+        }
+      }
+
+      & .pokedex-pokemon-detail__move {
+        padding: 8px;
+      }
+    }
+  }
+}

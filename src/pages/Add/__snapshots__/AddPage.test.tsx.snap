@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPage view test should render the AddPage layout correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="pokedex-pokemon-add"
+      >
+        <div
+          class="pokedex-pokemon-add__card"
+        >
+          <div
+            class="pokedex-pokemon-add__header"
+          >
+            <div
+              class="pokedex-pokemon-add__name"
+            />
+          </div>
+          <div
+            class="pokedex-pokemon-add__content"
+          >
+            <form>
+              <input
+                arial-label="name"
+                name="name"
+                placeholder="name"
+                type="text"
+              />
+              <input
+                arial-label="height"
+                name="height"
+                placeholder="height"
+                type="number"
+              />
+              <input
+                arial-label="weight"
+                name="weight"
+                placeholder="weight"
+                type="number"
+              />
+              <input
+                arial-label="baseExperience"
+                name="baseExperience"
+                placeholder="baseExperience"
+                type="number"
+              />
+              <input
+                arial-label="hp"
+                name="hp"
+                placeholder="hp"
+                type="number"
+              />
+              <input
+                arial-label="attack"
+                name="attack"
+                placeholder="attack"
+                type="number"
+              />
+              <input
+                arial-label="defense"
+                name="defense"
+                placeholder="defense"
+                type="number"
+              />
+              <input
+                aria-label="special-attack"
+                name="special-attack"
+                placeholder="special-attack"
+                type="number"
+              />
+              <input
+                aria-label="special-defense"
+                name="special-defense"
+                placeholder="special-defense"
+                type="number"
+              />
+              <input
+                arial-label="speed"
+                name="speed"
+                placeholder="speed"
+                type="number"
+              />
+              <div
+                class="pokedex-pokemon-add__type"
+              >
+                <label>
+                  Choose types
+                </label>
+                <select
+                  multiple=""
+                  name="types"
+                >
+                  <option
+                    value="bug"
+                  >
+                    bug
+                  </option>
+                  <option
+                    value="dark"
+                  >
+                    dark
+                  </option>
+                  <option
+                    value="dragon"
+                  >
+                    dragon
+                  </option>
+                  <option
+                    value="electric"
+                  >
+                    electric
+                  </option>
+                  <option
+                    value="fire"
+                  >
+                    fire
+                  </option>
+                  <option
+                    value="fairy"
+                  >
+                    fairy
+                  </option>
+                  <option
+                    value="fighting"
+                  >
+                    fighting
+                  </option>
+                  <option
+                    value="flying"
+                  >
+                    flying
+                  </option>
+                  <option
+                    value="ghost"
+                  >
+                    ghost
+                  </option>
+                  <option
+                    value="grass"
+                  >
+                    grass
+                  </option>
+                  <option
+                    value="ground"
+                  >
+                    ground
+                  </option>
+                  <option
+                    value="ice"
+                  >
+                    ice
+                  </option>
+                  <option
+                    value="normal"
+                  >
+                    normal
+                  </option>
+                  <option
+                    value="poison"
+                  >
+                    poison
+                  </option>
+                  <option
+                    value="psychic"
+                  >
+                    psychic
+                  </option>
+                  <option
+                    value="rock"
+                  >
+                    rock
+                  </option>
+                  <option
+                    value="steel"
+                  >
+                    steel
+                  </option>
+                  <option
+                    value="water"
+                  >
+                    water
+                  </option>
+                </select>
+              </div>
+              <div
+                class="pokedex-pokemon-add__submit"
+              >
+                <input
+                  aria-label="submit"
+                  type="submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="pokedex-pokemon-add"
+    >
+      <div
+        class="pokedex-pokemon-add__card"
+      >
+        <div
+          class="pokedex-pokemon-add__header"
+        >
+          <div
+            class="pokedex-pokemon-add__name"
+          />
+        </div>
+        <div
+          class="pokedex-pokemon-add__content"
+        >
+          <form>
+            <input
+              arial-label="name"
+              name="name"
+              placeholder="name"
+              type="text"
+            />
+            <input
+              arial-label="height"
+              name="height"
+              placeholder="height"
+              type="number"
+            />
+            <input
+              arial-label="weight"
+              name="weight"
+              placeholder="weight"
+              type="number"
+            />
+            <input
+              arial-label="baseExperience"
+              name="baseExperience"
+              placeholder="baseExperience"
+              type="number"
+            />
+            <input
+              arial-label="hp"
+              name="hp"
+              placeholder="hp"
+              type="number"
+            />
+            <input
+              arial-label="attack"
+              name="attack"
+              placeholder="attack"
+              type="number"
+            />
+            <input
+              arial-label="defense"
+              name="defense"
+              placeholder="defense"
+              type="number"
+            />
+            <input
+              aria-label="special-attack"
+              name="special-attack"
+              placeholder="special-attack"
+              type="number"
+            />
+            <input
+              aria-label="special-defense"
+              name="special-defense"
+              placeholder="special-defense"
+              type="number"
+            />
+            <input
+              arial-label="speed"
+              name="speed"
+              placeholder="speed"
+              type="number"
+            />
+            <div
+              class="pokedex-pokemon-add__type"
+            >
+              <label>
+                Choose types
+              </label>
+              <select
+                multiple=""
+                name="types"
+              >
+                <option
+                  value="bug"
+                >
+                  bug
+                </option>
+                <option
+                  value="dark"
+                >
+                  dark
+                </option>
+                <option
+                  value="dragon"
+                >
+                  dragon
+                </option>
+                <option
+                  value="electric"
+                >
+                  electric
+                </option>
+                <option
+                  value="fire"
+                >
+                  fire
+                </option>
+                <option
+                  value="fairy"
+                >
+                  fairy
+                </option>
+                <option
+                  value="fighting"
+                >
+                  fighting
+                </option>
+                <option
+                  value="flying"
+                >
+                  flying
+                </option>
+                <option
+                  value="ghost"
+                >
+                  ghost
+                </option>
+                <option
+                  value="grass"
+                >
+                  grass
+                </option>
+                <option
+                  value="ground"
+                >
+                  ground
+                </option>
+                <option
+                  value="ice"
+                >
+                  ice
+                </option>
+                <option
+                  value="normal"
+                >
+                  normal
+                </option>
+                <option
+                  value="poison"
+                >
+                  poison
+                </option>
+                <option
+                  value="psychic"
+                >
+                  psychic
+                </option>
+                <option
+                  value="rock"
+                >
+                  rock
+                </option>
+                <option
+                  value="steel"
+                >
+                  steel
+                </option>
+                <option
+                  value="water"
+                >
+                  water
+                </option>
+              </select>
+            </div>
+            <div
+              class="pokedex-pokemon-add__submit"
+            >
+              <input
+                aria-label="submit"
+                type="submit"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

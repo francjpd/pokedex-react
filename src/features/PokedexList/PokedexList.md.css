@@ -1,0 +1,5 @@
+@media (--md) {
+  .pokedex-list__element {
+    flex-basis: 28%;
+  }
+}
